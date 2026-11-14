@@ -110,7 +110,7 @@ grammar back:
 ## Confirmed-uncertain, not silently resolved
 
 - **`board$AT SUITED` vs. `board$ATSuited`**: both accepted; which is
-  the engine's real, intended syntax is unconfirmed .
+  the engine's real, intended syntax is unconfirmed.
 - **The `"..."` ellipsis** seen throughout the manual's own example code
   (e.g. `WHEN hand$22 OR hand$33 OR hand$44...`) is treated as
   documentation shorthand for "and so on," not real syntax, and is **not
