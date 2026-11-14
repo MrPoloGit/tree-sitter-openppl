@@ -1,0 +1,21 @@
+{
+  "grammars": [
+    {
+      "name": "openppl",
+      "camelcase": "Openppl",
+      "scope": "source.openppl",
+      "path": ".",
+      "file-types": ["ohf"],
+      "injection-regex": "^openppl$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for OpenPPL ",
+    "authors": [],
+    "links": {
+      "repository": "https://github.com/MrPoloGit/tree-sitter-openppl"
+    }
+  }
+}
