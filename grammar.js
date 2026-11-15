@@ -4,7 +4,7 @@
 // is cited back to the specific manual page it came from).
 //
 // SCOPE NOTE: this grammar needs ZERO entries from the OpenPPL symbol
-// registry (openppl/registry/). Every symbol name, action name, and
+// registry (openppl-data/registry/). Every symbol name, action name, and
 // function name below is handled as a GENERIC identifier shape, never
 // an enumerated list; see "Why the grammar never enumerates
 // action/symbol names" below.

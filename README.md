@@ -9,7 +9,7 @@ deliberately **not** the ~312+ (likely 800-1000+ once parametric forms
 are expanded) symbol registry, since that registry's raw source material
 is extracted from the GPLv3-licensed OpenPPL manual, and licensing that
 raised had to be resolved first (since resolved, see
-`openppl/registry/README.md`). This grammar needed none of that: every OpenPPL
+`openppl-data/registry/README.md`). This grammar needed none of that: every OpenPPL
 symbol, action name, and user-function name is handled as a **generic
 identifier shape**, never an enumerated list, see `grammar.js`'s file
 header, "Why the grammar never enumerates action/symbol names," for the
@@ -70,7 +70,7 @@ tree-sitter query queries/<name>.scm <file.ohf>
 
 ## How this was verified, three real bugs found, not assumed away
 
-`openppl/corpus/valid/*.ohf` and `openppl/corpus/invalid/*.ohf` are built
+`openppl-data/corpus/valid/*.ohf` and `openppl-data/corpus/invalid/*.ohf` are built
 directly from the manual's own complete, non-abbreviated examples (not
 the many examples that use a bare `"..."` for brevity, see the "..."
 note below). Every corpus file parses with **zero `ERROR` nodes**
